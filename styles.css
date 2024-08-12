@@ -1,0 +1,91 @@
+* {
+    padding: 0px;
+    margin:  0px;
+}
+body{
+    background-color: lightgray;
+}
+ 
+.Login-Page{
+     display: flex;
+     margin-top: 100px;
+     min-width: 800px;
+     margin-left: 150px;
+     
+}
+
+.Title-Card{
+    padding: 40px;
+    margin: 40px;
+}
+
+.Title-Card h1{
+   color: blue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: xx-large;
+}
+.Login-Form{
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 1px 1px 8px rgb(170, 170, 170);
+    text-align: center;
+    padding: 20px;
+    /* margin-left: 90px;
+    margin-right: 90px; */
+    margin-right: 90px;
+    min-width: 400px;
+}
+
+ .Login-Form input{
+    display: block;
+    width: 400px;
+    height: 40px; 
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.B1{
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 5px;
+    width: 400px;
+    height: 55px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+ }
+ .B1:hover{
+    background-color: rgb(71, 71, 247);
+ }
+
+ .a1{
+   color: rgb(58, 58, 206);
+   margin-bottom: 10px;
+}
+hr{
+    margin-top: 10px;
+}
+
+ .B2{
+    background-color: rgb(38, 209, 38);
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 55px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+ }
+.B2:hover{
+    background-color: rgb(54, 249, 54);
+}
+
+ .a2{
+    color: black;
+ }
+ 
+ p{
+    color:rgb(0, 0, 0); 
+    padding-top: 10px;
+    margin-left: 760px;  
+  }
